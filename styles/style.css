@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body {
+    background-color: #FFF9C7;
+
+}
+
+head {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    display: inline;
+}
+
+nav {
+    color: #833030;
+    padding: 15px;
+    background-color: #FFDEA8;
+    object-fit: cover;
+    position: sticky;
+    top: 0;
+}
+
+
+h1,
+h2,
+h3,
+p {
+    color: #833030;
+}
+
+#b {
+    margin-top: 0px;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #137A63;
+    font-size: 20px;
+
+}
+
+nav a:hover {
+    font-weight: bold;
+    border-style: 2px solid black;
+}
+
+.imgstore {
+    width: 100%;
+    max-height: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+
+ul {
+    text-align: right;
+    margin-right: 8px;
+}
+
+.logo {
+    float: left;
+    width: 130px;
+    justify-items: right;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-height: 150%;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+
+.left-content {
+    width: 10%;
+    height: 100%;
+    padding-left: 60px;
+    float: left;
+}
+
+.right-content {
+    padding-top: 35px;
+    text-align: left;
+    line-height: 30px;
+    width: 80%;
+    height: 100%;
+    float: right;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .left-content,
+    .right-content,
+    .content,
+    .content1,
+    .pic {
+        width: 100%;
+        padding: 0;
+       
+    }
+}
+
+.pic {
+    padding-top: 5px;
+    width: 90%;
+    max-height: 250px;
+
+}
+
+.box {
+    width: 100%;
+    /* border: 1px solid black; */
+    overflow: auto;
+    margin: 0 auto;
+    object-position: center;
+   
+}
+
+.content1 {
+    text-align: center;
+    /* width: 100%; */
+    height: 100%;
+    margin: 5px;
+    padding: 0;
+    float: left;
+    /* border: 1px solid black; */
+}
+
+/* untuk card*/
+.pas {
+    background-color: #FFDEA8;
+    border-radius: 2px;
+    width: 230px;
+    height: 320px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+table {
+    margin: 0 auto;
+}
+
+.center {
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-size: 29px;
+    text-decoration: underline #833030;
+    border-top: 5px solid#833030;
+}
+
+th {
+    color: #833030;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+.profil {
+    width: 150px;
+    margin: 0 auto;
+    padding-top: 5px;
+
+}
+
+.th1 {
+    color: #833030;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    text-align: left;
+
+}
+
+.card {
+    background-color: #FFDEA8;
+    border-radius: 2px;
+    width: 280px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+main {
+    overflow: auto;
+}
+
+aside {
+    float: right;
+    width: 50%;
+}
+
+.b {
+    text-align: center;
+    margin: 0 auto;
+    margin: 2px;
+}
+
+.boxitem {
+    display: flex;
+    max-width: 50%;
+    height: 500px;
+    /*border: 2px solid black; */
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.pos {
+    object-position: center;
+    text-align: start;
+    float: left;
+    margin: 50px;
+}
+
+.pos1 {
+    margin: 0 auto;
+}
+
+.line {
+    padding-top: 10px;
+}
+
+
+.position {
+    padding-top: 15%;
+    line-height: 30px;
+}
+
+
+footer {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    color: #833030;
+    background-color: #FFDEA8;
+    object-fit: cover;
+    padding-top: 10px;
+
+}
+
+.box2 {
+    width: 100%;
+    max-height: 100%;
+    margin: 0 auto;
+
+}
+
+.content {
+    width: 33.3%;
+    height: 60px;
+    padding-top: 10px;
+    line-height: 25px;
+    float: left;
+    /* border: 2px solid black; */
+}
+
+
+.tes1 {
+    width: 50px;
+    color: #ffffff;
+    background-color: #833030;
+    border-color: #ffffff;
+    border-width: 2px;
+}
+
+.tengah {
+    margin: 0 auto;
+}
+
+.box3 {
+    width: 90%;
+    max-height: 150%;
+    margin: 0 auto;
+    margin-top: 20px;
+    /* border: 2px solid black; */
+    overflow: auto;
+}
+
+.fb {
+    color: blue;
+}
+
+.ig {
+    color: orangered;
+}
